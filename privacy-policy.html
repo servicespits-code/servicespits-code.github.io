@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --text:#1c1c1e;
+    --muted:#6e6e73;
+    --accent:#0071e3;
+    --border:#e5e5ea;
+    --card:#f5f5f7;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#000000;
+      --text:#f5f5f7;
+      --muted:#a1a1a6;
+      --accent:#409cff;
+      --border:#2c2c2e;
+      --card:#1c1c1e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#000000;
+    --text:#f5f5f7;
+    --muted:#a1a1a6;
+    --accent:#409cff;
+    --border:#2c2c2e;
+    --card:#1c1c1e;
+  }
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    line-height:1.6;
+  }
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:56px 24px 96px;
+  }
+  header{
+    margin-bottom:40px;
+  }
+  .eyebrow{
+    color:var(--accent);
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:0.02em;
+    text-transform:uppercase;
+    margin-bottom:8px;
+  }
+  h1{
+    font-size:clamp(28px,5vw,40px);
+    font-weight:700;
+    margin:0 0 8px;
+    letter-spacing:-0.02em;
+  }
+  .updated{
+    color:var(--muted);
+    font-size:14px;
+  }
+  nav.toc{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px 24px;
+    margin:32px 0 48px;
+  }
+  nav.toc p{
+    margin:0 0 10px;
+    font-weight:600;
+    font-size:14px;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:0.02em;
+  }
+  nav.toc ol{
+    margin:0;
+    padding-left:20px;
+    columns:2;
+    column-gap:24px;
+  }
+  nav.toc li{
+    margin-bottom:8px;
+    break-inside:avoid;
+  }
+  nav.toc a{
+    color:var(--text);
+    text-decoration:none;
+    font-size:15px;
+  }
+  nav.toc a:hover{
+    color:var(--accent);
+  }
+  section{
+    margin-bottom:40px;
+    padding-top:8px;
+    scroll-margin-top:24px;
+  }
+  h2{
+    font-size:22px;
+    font-weight:700;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+    border-bottom:1px solid var(--border);
+    padding-bottom:10px;
+  }
+  h3{
+    font-size:17px;
+    font-weight:600;
+    margin:20px 0 8px;
+  }
+  p{
+    margin:0 0 14px;
+    color:var(--text);
+  }
+  ul{
+    margin:0 0 14px;
+    padding-left:22px;
+  }
+  li{
+    margin-bottom:6px;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:16px 0;
+    font-size:14px;
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 14px;
+    border:1px solid var(--border);
+  }
+  th{
+    background:var(--card);
+    font-weight:600;
+  }
+  .placeholder{
+    background:rgba(255,196,0,0.18);
+    border:1px dashed #c99a00;
+    border-radius:4px;
+    padding:0 4px;
+  }
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px 24px;
+  }
+  a{color:var(--accent);}
+  footer{
+    margin-top:56px;
+    padding-top:24px;
+    border-top:1px solid var(--border);
+    color:var(--muted);
+    font-size:13px;
+  }
+  .back-to-top{
+    display:inline-block;
+    margin-top:8px;
+    font-size:13px;
+    color:var(--accent);
+    text-decoration:none;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header id="top">
+    <div class="eyebrow">Legal</div>
+    <h1>Prerna Info Tech Solutions Privacy Policy</h1>
+    <div class="updated">Last updated: September 20, 2026</div>
+  </header>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#intro">1. Introduction</a></li>
+      <li><a href="#collect">2. Information We Collect</a></li>
+      <li><a href="#use">3. How We Use Information</a></li>
+      <li><a href="#share">4. How We Share Information</a></li>
+      <li><a href="#storage">5. Data Storage &amp; Security</a></li>
+      <li><a href="#retention">6. Data Retention</a></li>
+      <li><a href="#rights">7. Your Rights &amp; Choices</a></li>
+      <li><a href="#children">8. Children's Privacy</a></li>
+      <li><a href="#transfers">9. International Transfers</a></li>
+      <li><a href="#changes">10. Changes to This Policy</a></li>
+      <li><a href="#contact">11. Contact Us</a></li>
+    </ol>
+  </nav>
+
+  <section id="intro">
+    <h2>1. Introduction</h2>
+    <p>
+      This Privacy Policy explains how Prerna Info Tech Solutions
+      ("we", "us", or "our") collects, uses, discloses, and safeguards information when you
+      use the Prerna Info Tech Solutions mobile application (the "App").
+      Please read this policy carefully. By using the App, you agree to the practices
+      described here.
+    </p>
+    <p>
+      If you do not agree with the terms of this policy, please do not access or use the App.
+    </p>
+  </section>
+
+  <section id="collect">
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Information You Provide</h3>
+    <ul>
+      <li>Account details (e.g. name, email address, password) when you register</li>
+      <li>Profile information you choose to add</li>
+      <li>Content you create, upload, or submit within the App</li>
+      <li>Communications when you contact us for support</li>
+    </ul>
+
+    <h3>2.2 Information Collected Automatically</h3>
+    <ul>
+      <li>Device information (model, operating system, unique device identifiers)</li>
+      <li>Usage data (features used, screens viewed, time spent, crash logs)</li>
+      <li>Approximate location, if you grant location permission</li>
+      <li>IP address and general network information</li>
+    </ul>
+
+    <h3>2.3 Information From Third Parties</h3>
+    <ul>
+      <li>Sign-in providers (e.g. Sign in with Apple, Google) if you use them</li>
+      <li>Analytics and crash-reporting providers</li>
+      <li>Payment processors, for purchase confirmation (we do not store full card details)</li>
+    </ul>
+  </section>
+
+  <section id="use">
+    <h2>3. How We Use Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Provide, operate, and maintain the App</li>
+      <li>Create and manage your account</li>
+      <li>Personalize your experience and content</li>
+      <li>Process transactions and send related confirmations</li>
+      <li>Send important updates, security alerts, and support messages</li>
+      <li>Monitor usage, diagnose problems, and improve performance</li>
+      <li>Detect, prevent, and address fraud, abuse, or security issues</li>
+      <li>Comply with legal obligations</li>
+    </ul>
+  </section>
+
+  <section id="share">
+    <h2>4. How We Share Information</h2>
+    <p>We do not sell your personal information. We may share information with:</p>
+    <ul>
+      <li><strong>Service providers</strong> who perform functions on our behalf (hosting, analytics, customer support, payment processing)</li>
+      <li><strong>Legal authorities</strong>, when required by law, subpoena, or to protect rights and safety</li>
+      <li><strong>Business transfers</strong>, in connection with a merger, acquisition, or sale of assets</li>
+      <li><strong>With your consent</strong>, for any other purpose disclosed at the time of collection</li>
+    </ul>
+  </section>
+
+  <section id="storage">
+    <h2>5. Data Storage &amp; Security</h2>
+    <p>
+      We use commercially reasonable technical and organizational measures — such as
+      encryption in transit, access controls, and regular security reviews — to protect
+      your information. However, no method of transmission or storage is 100% secure, and
+      we cannot guarantee absolute security.
+    </p>
+  </section>
+
+  <section id="retention">
+    <h2>6. Data Retention</h2>
+    <p>
+      We retain personal information for as long as necessary to provide the App, comply
+      with legal obligations, resolve disputes, and enforce our agreements. When no longer
+      needed, we delete or anonymize the data.
+    </p>
+  </section>
+
+  <section id="rights">
+    <h2>7. Your Rights &amp; Choices</h2>
+    <p>Depending on your location, you may have the right to:</p>
+    <ul>
+      <li>Access, correct, or delete your personal information</li>
+      <li>Object to or restrict certain processing</li>
+      <li>Request a copy of your data in a portable format</li>
+      <li>Withdraw consent at any time (where processing is based on consent)</li>
+      <li>Opt out of marketing communications</li>
+      <li>Disable location, camera, or notification permissions via device Settings</li>
+    </ul>
+    <p>
+      To exercise these rights, contact us using the details in Section 11. Residents of
+      the EU/EEA, UK, and applicable US states may have additional rights under laws such
+      as GDPR and state privacy statutes.
+    </p>
+  </section>
+
+  <section id="children">
+    <h2>8. Children's Privacy</h2>
+    <p>
+      The App is not directed to children under 13 (or the applicable age in your
+      jurisdiction), and we do not knowingly collect personal information from children.
+      If you believe a child has provided us with personal information, please contact us
+      so we can delete it.
+    </p>
+  </section>
+
+  <section id="transfers">
+    <h2>9. International Transfers</h2>
+    <p>
+      Your information may be transferred to, and processed in, countries other than your
+      own. Where required, we rely on appropriate safeguards (such as standard contractual
+      clauses) to protect information transferred internationally.
+    </p>
+  </section>
+
+  <section id="changes">
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will notify you of material
+      changes by posting the new policy in the App or on this page and updating the
+      "Last updated" date above.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>11. Contact Us</h2>
+    <div class="card">
+      <p style="margin-bottom:6px;">If you have questions about this Privacy Policy, contact us at:</p>
+      <p style="margin-bottom:2px;"><strong>Prerna Info Tech Solutions</strong></p>
+      <p style="margin-bottom:2px;">Email: services.pits@gmail.com</p>
+      <p style="margin-bottom:0;">Address: E63 Parshvnath Narayan City, Sanganer, Jaipur</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Prerna Info Tech Solutions. All rights reserved.</p>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
+  </footer>
+
+</div>
+</body>
+</html>
